@@ -1,0 +1,18 @@
+$text-color-white: rgba(255,255,255,1); 
+$text-color-white-a1: rgba(255,255,255,0.8); 
+$para-color : rgba(0,0,0,0.6);
+$para-color-services : rgba(0,0,0,0.4);
+
+$heading-color : rgba(0,0,0,0.6);
+
+$primary-green: #25D96D;
+$primary-dark-blue: rgb(56, 90, 100);
+$secondary-green: rgb(0, 223, 192);
+
+@mixin primary-dark-blue($alpha){
+    background-color: rgba(56, 90, 100,$alpha);
+}
+
+@mixin secondary-green($alpha){
+    background-color: rgba(0, 223, 192,$alpha);
+}

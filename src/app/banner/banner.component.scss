@@ -1,0 +1,135 @@
+@import '../../assets/scss/variables';
+.banner{
+    background-image: url('../../assets/images/banner/bg.jpg');
+    background-size: cover;
+    background-position:center 1px; 
+    height: 100vh;
+    .container{
+        position: relative;
+        z-index: 99;
+    }
+    h3{
+        line-height: 40px;
+        width: 400px;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        &.heading{
+            font-size: 48px;
+            margin-bottom: 20px;
+            width: 100%;
+            margin-top: 80px;
+            .brand-name{
+                font-weight: 700;
+            }
+        }
+    }
+    h4{
+        margin-top: 0px;
+    }
+    .content{
+        position: relative;
+        padding: 26px 0px;
+        z-index: 9;
+        color: $para-color ;
+        height: 100vh;
+        img{
+            width: 150px;
+            float: left;
+        }
+        .right-nav{
+            float: right;
+            z-index: 9999;
+            position: relative;
+            margin-top: -3px;
+            img{
+                width: 15px;
+                margin-top: -7px;
+                margin-right: 10px;
+                animation: shake 2s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+
+            }
+           a{
+               font-size: 18px;
+               font-weight: 300;
+               cursor: pointer;
+               vertical-align: middle;
+                margin-top: -4px;;
+              
+           }
+           :hover{
+               img{
+                animation: shake 2s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+                animation-iteration-count:infinite;
+
+               }
+            }
+        }
+        
+        .tagline{
+            margin-top: -30px;
+        }
+        @media only screen and (max-width:600px) {
+            padding-top: 25px;
+            h3{
+                font-size: 18px;
+                width: auto;
+                &.heading{
+                    font-size: 24px;
+                    margin-top: 50px;
+                    margin-bottom: 10px !important;
+                }   
+            }
+            img{
+                width: 100px;
+            }
+            .right-nav{
+                a{
+                    font-size: 14px;
+                }
+            }
+            .tagline{
+                margin-top: -60px;
+                font-size: 14px;
+            }
+        }
+    
+    }
+ 
+    .img-position-cont{
+     position: absolute; 
+    //  left: 0px;  
+    height: 100vh;    
+     top: 0px;
+     width: 58%;
+     z-index: 99;
+     right: 0px;
+     .img-cont{
+        position: relative;
+        height: 100vh;
+        img{
+            width: 100%;
+            position: absolute;
+            bottom:0px;
+            left: 0px;
+          
+        }
+    }
+    @media only screen and (max-width:600px) {
+            display: none;
+
+            .img-cont{
+                // display: none;
+            }
+        }
+    }
+
+}
+
+
+
+@keyframes dash {
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
