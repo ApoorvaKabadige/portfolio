@@ -95,6 +95,87 @@
         }
     
     }
+
+    .button-section{
+        margin-top: 40px;
+        text-align: center;
+        .butn{
+            width: 200px;
+            display: inline-block;
+            margin-right: 20px;
+            cursor: pointer;
+            svg{
+                margin-top: -120px;
+                width: 190px;
+            }
+         
+            }
+            &:hover{
+            
+                path{
+                    animation: dash 1s linear forwards;
+                }
+      
+            }
+            &:last-child{
+                .btn-classic{
+                    width: 220px;
+                }
+            }
+        }
+        @media only screen and (max-width:600px) {
+            .butn{
+                width: 150px;
+                .btn-classic{
+                    width: 180px !important;
+                    p{
+                        font-size: 14px !important;
+                    }      
+                    .browser-content{
+                        &.scroll{
+                            img{
+                                &.browser-content{
+                                    animation: scrollup 2.2s cubic-bezier(0.645, 0.045, 0.355, 1) both infinite;
+                                }
+                            }
+                        }
+                        .browser-window{
+                            width: 30px !important;
+                            img{
+                                width: 24px !important;
+                            }
+                        }
+                    }  
+                }
+                &:hover{
+                    .btn-classic{
+                        // transform: scale(1.03);
+                        width: 180px;
+                        background: rgba(255, 255, 255,0.15);
+                        border-color:transparent;
+                    }
+                    .side-sec{
+                        &.right-side{
+                            width: calc(100% - 50px) !important;
+                        }
+                        &.left-side{
+                            width: 50px;
+                            .browser-content{
+                                top: 0px;        
+                                transform: scale(1);       
+                                &.scroll{
+                                    left: 0px;
+                                }
+                                &.click{
+                                    left: 0px;
+                                }  
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
  
     .img-position-cont{
      position: absolute; 
