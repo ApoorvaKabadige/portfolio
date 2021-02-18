@@ -1,7 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Patrick Hand', cursive;
 }
 .p-80{
     padding: 80px 0px;;
 }
+
+
+.button-section{
+    margin-top: 40px;
+    text-align: center;
+    .butn{
+        width: 200px;
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+        svg{
+            margin-top: -120px;
+            width: 190px;
+        }
+     
+        }
+        &:hover{
+        
+            path{
+                animation: dash 1s linear forwards;
+            }
+  
+        }
+        &:last-child{
+            .btn-classic{
+                width: 220px;
+            }
+        }
+    }
