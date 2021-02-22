@@ -1,0 +1,27 @@
+.footer{
+    background-color: #1a2c3f;
+    padding:30px 0px 0px 0px;
+    h3{
+        font-size:18px;
+        color: rgba(255,255,255,0.7);
+
+    }
+    p{
+        font-size: 14px;
+        color: rgba(255,255,255,0.9);
+    }
+    a{
+        color: #fff;
+        span{
+            vertical-align: top;
+        }
+        img{
+            width:15px;
+            margin-top: -9px;
+            margin-right:10px
+        }
+    }
+    .detail{
+        margin-bottom: 30px;;
+    }
+}

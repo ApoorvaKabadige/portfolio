@@ -1,8 +1,6 @@
 @import '../../assets/scss/variables';
 .banner{
-    background-image: url('../../assets/images/banner/bg.jpg');
-    background-size: cover;
-    background-position:center 1px; 
+    background-color: #D4D4D4;
     height: 100vh;
     .container{
         position: relative;
@@ -11,21 +9,11 @@
     h3{
         line-height: 40px;
         width: 400px;
-        font-size: 30px;
+        font-size: px38;
         width: 100%;
-        text-align: center;
-        &.heading{
-            font-size: 48px;
-            margin-bottom: 20px;
-            width: 100%;
-            margin-top: 80px;
-            .brand-name{
-                font-weight: 700;
-            }
-        }
     }
     h4{
-        margin-top: 0px;
+        margin-top: 40px;
     }
     .content{
         position: relative;
@@ -34,7 +22,7 @@
         color: $para-color ;
         height: 100vh;
         img{
-            width: 150px;
+            width: 795px;
             float: left;
         }
         .right-nav{
@@ -98,14 +86,13 @@
 
     .button-section{
         margin-top: 40px;
-        text-align: center;
         .butn{
             width: 200px;
-            display: inline-block;
             margin-right: 20px;
             cursor: pointer;
             svg{
                 margin-top: -120px;
+                margin-left: -30px;
                 width: 190px;
             }
          

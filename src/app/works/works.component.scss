@@ -24,16 +24,26 @@
         margin-top: 50px;
     }
     .work1{
-        background: #8ae09e;
-       
-    }
-    .work2{
-        background: #5aa1e8;
-    }
-    .work3{
+        background: rgba(0, 223, 192, 0.38);
         color: #000;
         p{
             color: rgba(0,0,0,0.8);
+        }
+       
+    }
+    .work2{
+        background:  rgba(51, 128, 195, 0.75);
+        .img-container{
+            &.landing{
+                padding-top:80px
+            }
+        }
+    }
+    .work3{
+        background: #FFA624;
+        color: #000;
+        p{
+            color: rgba(0,0,0,0.6);
         }
     }
     
