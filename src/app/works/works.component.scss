@@ -1,12 +1,12 @@
 .works{
-    color:#fff;
+    color:#333;
     h1{
         margin-bottom: 80px;
         font-size: 30px;
     }
     p{
         font-size: 16px;
-       color: #ffffff;
+       color: #333;
     }
     h2{
         font-size: 24px;
@@ -23,16 +23,25 @@
     .dashboard-img{
         margin-top: 50px;
     }
+    h2{
+        display: inline-block;
+        padding:0px 10px;
+    }
     .work1{
-        background: rgba(0, 223, 192, 0.38);
-        color: #000;
-        p{
-            color: rgba(0,0,0,0.8);
+        background-color: #fafafa;
+
+        h2{
+            background: rgba(0, 223, 192, 0.38);
+       
         }
+       
        
     }
     .work2{
-        background:  rgba(51, 128, 195, 0.75);
+        background-color: #fff;
+        h2{
+            background:  rgba(51, 128, 195, 0.75);
+        }
         .img-container{
             &.landing{
                 padding-top:80px
@@ -40,11 +49,12 @@
         }
     }
     .work3{
-        background: #FFA624;
-        color: #000;
-        p{
-            color: rgba(0,0,0,0.6);
+        background-color: #fafafa;
+
+        h2{
+            background: #FFA624;
         }
+    
     }
     
 }
