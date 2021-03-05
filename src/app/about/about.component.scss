@@ -27,5 +27,20 @@
             
            
         }
+    @media only screen and (max-width:991px) {
+        h2{
+            margin-top: 0px;
+        }
+        h3{
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .img-container{
+            img{
+                display: inline-block;
+                width: 100%;
+            }
+        }    
+    }
     
 }

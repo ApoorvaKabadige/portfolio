@@ -63,5 +63,15 @@
             width: 220px;
         }
     }
-    
+    @media only screen and (max-width:600px) {
+        .img-container{
+            margin-bottom: 40px;
+        }
+        .work3{
+            img{
+                display: table;
+                margin: 0 auto;
+            }
+        }
+    }
 }
